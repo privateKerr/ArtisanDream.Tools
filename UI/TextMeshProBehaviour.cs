@@ -49,11 +49,11 @@ public class TextMeshProBehaviour : TextBehaviour
         textObj.text = timeSpanObj.Minutes + ":" + timeSpanObj.Seconds;
     }
     
-    public new void UpdateTextAsMoney (IntData obj)
+   /* public new void UpdateTextAsMoney (IntData obj)
     {
         textObj.text = obj.value.ToString("C0");
     }
-
+   */
     public void StoreIntDataValue(IntData obj)
     {
         currentNum = obj.value;
